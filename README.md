@@ -8,3 +8,6 @@
  <br>docker run -d -p 5000:5000 --name emailreceiver_container s112144/emailreceiver:latest
  <br>日志挂载到其他文件
  <br>docker run -d -p 5000:5000 --name emailreceiver_container -v /path/on/host/app.log:/app/app.log s112144/emailreceiver:latest
+
+ 在windows构建
+ <br>docker build -t s112144/emailreceiver:latest .
